@@ -28,7 +28,7 @@ function getQuote(index) {
     else{
        document.getElementById('quoteText').innerHTML= `\" ${quoteAry[index].quote} \"`;
        
-       document.getElementById('quoteAuther').innerHTML= `\" ${quoteAry[index].auther} \"`;
+       document.getElementById('quoteAuther').innerHTML= quoteAry[index].auther;
     }
 
     prevoiusRandomNo =index;
