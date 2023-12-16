@@ -1,0 +1,22 @@
+ 
+  .blockquote-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -25px;
+    left: 50px;
+  }
+    .bg-gray {
+    background: #e0dfdf;
+  }
+  .h-90{
+    height: 5.625rem;
+  }
+  .h-70{
+    height: 70px;
+    vertical-align: center;
+  }

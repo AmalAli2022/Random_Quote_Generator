@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <section class="py-5 m-auto">
+        <div class="container m-auto text-center shadow rounded bg-gray">
+            <div class="row">
+                <div class="col-lg-6 m-auto  mt-5">
+                    <header class="text-center pb-5">
+                        <h1 class="h2">Quote of the Day</h1>
+                        <p>Press the button below to recieve a random quote!</p>
+                    </header>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 m-auto">
+                        <blockquote class=" blockquote position-relative bg-white p-4 shadow rounded">
+                        <div class="blockquote-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+                        <div class="h-70 align-middle text-center overflow-hidden">
+                              <p class="mb-0 mt-2 font-italic" id="quoteText"></p>
+                        </div>
+                        <footer class="blockquote-footer pt-4 mt-4 border-top">
+                            <cite title="Source Title" id="quoteAuther"></cite>
+                        </footer>
+                    </blockquote>
+                         
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 m-auto mb-5">
+                    <button class="btn btn-primary mt-2 mb-2 w-25" type="button" id="btnNext" onclick="getRandomNumber();">New Quote</button>
+                     
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/app.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
